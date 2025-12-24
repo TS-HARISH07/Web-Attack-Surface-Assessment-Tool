@@ -1,0 +1,31 @@
+Web Attack Surface Assessment Report
+
+Target: http://testphp.vulnweb.com
+
+Summary:
+A basic web reconnaissance and security header analysis was performed.
+
+Findings:
+- Multiple HTTP security headers were missing.
+- No robots.txt file was accessible.
+- No common sensitive directories were exposed.
+
+Impact:
+Missing security headers increase the risk of clickjacking, XSS,
+and protocol downgrade attacks.
+
+Conclusion:
+The target application exhibits security misconfigurations
+that should be addressed to reduce attack surface exposure.
+
+Additional Testing:
+- Reflected XSS testing was performed using controlled payloads.
+- No unsanitized input reflection was observed.
+
+Note:
+Absence of reflected XSS does not guarantee complete immunity
+against other XSS types such as stored or DOM-based XSS.
+
+
+
+
