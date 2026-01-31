@@ -1,3 +1,9 @@
+
+---
+
+## 📄 `report.txt`
+
+```text
 Web Attack Surface Assessment Report
 
 Target: http://testphp.vulnweb.com
@@ -25,7 +31,3 @@ Additional Testing:
 Note:
 Absence of reflected XSS does not guarantee complete immunity
 against other XSS types such as stored or DOM-based XSS.
-
-
-
-
